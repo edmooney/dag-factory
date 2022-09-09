@@ -1,4 +1,4 @@
-FROM python:3.6-slim
+FROM python:3.9.14-slim
 
 ARG AIRFLOW_VERSION=1.10.1
 ARG AIRFLOW_HOME=/usr/local/airflow
